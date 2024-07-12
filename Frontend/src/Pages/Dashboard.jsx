@@ -51,8 +51,11 @@ const Dashboard = () => {
 
   if (loading) {
     return (
-      <div className="flex h-[90vh] justify-center items-center text-4xl italic text-blue-600">
-        Loading...
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     );
   }
